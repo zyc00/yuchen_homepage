@@ -1,0 +1,16 @@
+.DS_Store
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+.next/
+.astro/
+
+# Local logs
+*.log
