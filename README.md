@@ -49,6 +49,11 @@ links, three selected publications, and footer.
 `assets/images/portrait.png` is the original 1024 × 1024 photo provided by Yuchen.
 Keep this source image intact; adjust its display framing with CSS in the bio section.
 
+## Favicon
+
+`assets/penn-shield.ico` is the unmodified simplified shield favicon from
+[Penn's website](https://www.upenn.edu/themes/custom/penn_global/assets/img/simplified-shield.ico).
+
 ## Deployment
 
 GitHub Pages publishes the repository root automatically when changes are pushed
