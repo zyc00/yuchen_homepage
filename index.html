@@ -9,7 +9,7 @@
         />
         <link rel="canonical" href="https://www.yuchenzh.com/" />
         <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="styles.css?v=grasp-affiliation-1" />
         <title>Yuchen Zhou</title>
     </head>
     <body>
@@ -21,9 +21,10 @@
                     >Yuchen Zhou</a
                 >
                 <nav aria-label="Main navigation">
-                    <a href="#about" aria-current="location">About</a>
+                    <a href="#about">About</a>
+                    <a href="#publications">Publications</a>
                     <a href="assets/documents/Yuchen_Zhou_CV.pdf"
-                        >CV <span aria-hidden="true">↗</span></a
+                        >CV</a
                     >
                 </nav>
             </header>
@@ -37,15 +38,18 @@
                     <div class="profile-copy">
                         <h1 id="profile-name">Yuchen Zhou</h1>
                         <p class="role">PhD Student</p>
+                        <p class="affiliation">GRASP Lab, University of Pennsylvania</p>
 
                         <div class="bio">
-                            <!-- BIO: Replace this paragraph with your introduction. Add more <p> elements if needed. -->
+                            <!-- BIO: Edit your introduction here. Add more <p> elements if needed. -->
                             <p>
-                                Yuchen Zhou is a PhD student at the University
+                                I'm Yuchen Zhou, a PhD student at the University
                                 of Pennsylvania, advised by Prof. Jiayuan Mao.
-                                His research focuses on robotics and machine
-                                learning. He earned his bachelor's degree from
-                                Tsinghua University and his master's degree from
+                                My research lies at the intersection of robotics
+                                and machine learning, with a focus on developing
+                                algorithms that enable robots to learn
+                                efficiently. I earned my bachelor's degree from
+                                Tsinghua University and my master's degree from
                                 the University of California, San Diego.
                             </p>
                         </div>
@@ -56,26 +60,25 @@
                         >
                             <li>
                                 <a href="mailto:zyc0187@engineering.upenn.edu"
-                                    >Email <span aria-hidden="true">↗</span></a
+                                    >Email</a
                                 >
                             </li>
                             <li>
                                 <a
                                     href="https://scholar.google.com/citations?user=Sr4zAy0AAAAJ&amp;hl=en"
-                                    >Google Scholar
-                                    <span aria-hidden="true">↗</span></a
+                                    >Google Scholar</a
                                 >
                             </li>
                             <li>
                                 <a href="https://github.com/zyc00"
-                                    >GitHub <span aria-hidden="true">↗</span></a
+                                    >GitHub</a
                                 >
                             </li>
                             <li>
                                 <a
                                     href="assets/documents/Yuchen_Zhou_CV.pdf"
                                     aria-label="Curriculum vitae (PDF)"
-                                    >CV <span aria-hidden="true">↗</span></a
+                                    >CV</a
                                 >
                             </li>
                         </ul>
@@ -91,14 +94,234 @@
                         />
                     </div>
                 </section>
+
+                <section
+                    class="publications"
+                    id="publications"
+                    aria-labelledby="publications-heading"
+                >
+                    <div class="section-heading">
+                        <h2 id="publications-heading">Selected publications</h2>
+                    </div>
+
+                    <!-- PUBLICATIONS: Each article is one paper. Reorder these blocks to change the display order. -->
+                    <div class="publication-list">
+                        <article
+                            class="publication"
+                            aria-labelledby="point-sam-title"
+                        >
+                            <div class="publication-figure publication-video">
+                                <video
+                                    autoplay
+                                    muted
+                                    loop
+                                    playsinline
+                                    preload="metadata"
+                                    aria-label="Point-SAM interactive segmentation of a Transformer model"
+                                >
+                                    <source
+                                        src="assets/videos/point-sam-transformer.mp4#t=3"
+                                        type="video/mp4"
+                                    />
+                                    <a
+                                        href="assets/videos/point-sam-transformer.mp4"
+                                        >Watch the Point-SAM demo</a
+                                    >.
+                                </video>
+                            </div>
+                            <div class="publication-copy">
+                                <h3 id="point-sam-title">
+                                    <a href="https://point-sam.github.io/"
+                                        >Point-SAM: Promptable 3D Segmentation
+                                        Model for Point Clouds</a
+                                    >
+                                </h3>
+                                <p class="publication-authors">
+                                    <strong>Yuchen Zhou</strong><sup>*</sup>,
+                                    Jiayuan Gu<sup>*</sup>, Tung Yen Chiang,
+                                    Fanbo Xiang, Hao Su
+                                </p>
+                                <p class="publication-venue">
+                                    <a
+                                        href="https://proceedings.iclr.cc/paper_files/paper/2025/hash/8f363c981c796cd781729e6c0117cadc-Abstract-Conference.html"
+                                        >ICLR 2025</a
+                                    >
+                                </p>
+                                <ul
+                                    class="publication-links"
+                                    aria-label="Point-SAM resources"
+                                >
+                                    <li>
+                                        <a
+                                            href="https://arxiv.org/abs/2406.17741"
+                                            >Paper</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://github.com/zyc00/Point-SAM"
+                                            >Code</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="https://point-sam.github.io/"
+                                            >Project</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="assets/videos/point-sam-transformer.mp4"
+                                            >Video</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <article
+                            class="publication"
+                            aria-labelledby="partslip-title"
+                        >
+                            <a
+                                class="publication-figure"
+                                href="assets/images/publications/partslip-results.png"
+                                aria-label="View the full PartSLIP++ segmentation results figure"
+                            >
+                                <img
+                                    src="assets/images/publications/partslip-results.png"
+                                    width="2700"
+                                    height="1440"
+                                    loading="lazy"
+                                    decoding="async"
+                                    alt="Overview of PartSLIP and PartSLIP++ part segmentation results on chairs, wheelbarrows, buckets, monitors, and other objects; PartSLIP++ results appear in rows two and four."
+                                />
+                            </a>
+                            <div class="publication-copy">
+                                <h3 id="partslip-title">
+                                    <a href="https://arxiv.org/abs/2312.03015"
+                                        >PartSLIP++: Enhancing Low-Shot 3D Part
+                                        Segmentation via Multi-View Instance
+                                        Segmentation and Maximum Likelihood
+                                        Estimation</a
+                                    >
+                                </h3>
+                                <p class="publication-authors">
+                                    <strong>Yuchen Zhou</strong><sup>*</sup>,
+                                    Jiayuan Gu<sup>*</sup>, Xuanlin Li, Minghua
+                                    Liu, Yunhao Fang, Hao Su
+                                </p>
+                                <p class="publication-venue">
+                                    <a
+                                        href="https://3d-in-the-wild.github.io/2025.html"
+                                        >Wild3D Workshop at ICCV 2025</a
+                                    >
+                                </p>
+                                <ul
+                                    class="publication-links"
+                                    aria-label="PartSLIP++ resources"
+                                >
+                                    <li>
+                                        <a
+                                            href="https://arxiv.org/abs/2312.03015"
+                                            >Paper</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://github.com/zyc00/PartSLIP2"
+                                            >Code</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <article
+                            class="publication"
+                            aria-labelledby="oric-title"
+                        >
+                            <a
+                                class="publication-figure"
+                                href="assets/images/publications/oric.png"
+                                aria-label="View the full ORIC figure"
+                            >
+                                <img
+                                    src="assets/images/publications/oric.png"
+                                    width="2044"
+                                    height="1102"
+                                    loading="lazy"
+                                    decoding="async"
+                                    alt="ORIC examples of object misidentification and hallucination in incongruous contexts."
+                                />
+                            </a>
+                            <div class="publication-copy">
+                                <h3 id="oric-title">
+                                    <a href="https://arxiv.org/abs/2509.15695"
+                                        >ORIC: Benchmarking Object Recognition
+                                        under Contextual Incongruity in Large
+                                        Vision-Language Models</a
+                                    >
+                                </h3>
+                                <p class="publication-authors">
+                                    Zhaoyang Li<sup>*</sup>, Zhan
+                                    Ling<sup>*</sup>,
+                                    <strong>Yuchen Zhou</strong>, Litian Gong,
+                                    Erdem Bıyık, Hao Su
+                                </p>
+                                <p class="publication-venue">
+                                    <a
+                                        href="https://openaccess.thecvf.com/content/CVPR2026/html/Li_ORIC_Benchmarking_Object_Recognition_under_Contextual_Incongruity_in_Large_Vision-Language_CVPR_2026_paper.html"
+                                        >CVPR 2026</a
+                                    >
+                                </p>
+                                <ul
+                                    class="publication-links"
+                                    aria-label="ORIC resources"
+                                >
+                                    <li>
+                                        <a
+                                            href="https://arxiv.org/abs/2509.15695"
+                                            >Paper</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://github.com/ZhaoyangLi-1/ORIC"
+                                            >Code</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                    <p class="publication-note">* Equal contribution.</p>
+                </section>
             </main>
 
             <footer class="site-footer">
                 <span>© Yuchen Zhou</span>
                 <a href="mailto:zyc0187@engineering.upenn.edu"
-                    >Get in touch <span aria-hidden="true">↗</span></a
+                    >Get in touch</a
                 >
             </footer>
         </div>
+        <script>
+            // Respect reduced-motion preferences; the Video link opens the full player.
+            const motionPreference = window.matchMedia(
+                "(prefers-reduced-motion: reduce)",
+            );
+            const demoVideo = document.querySelector(
+                ".publication-video video",
+            );
+            function respectMotionPreference() {
+                demoVideo.autoplay = !motionPreference.matches;
+                if (motionPreference.matches) demoVideo.pause();
+            }
+            respectMotionPreference();
+            motionPreference.addEventListener(
+                "change",
+                respectMotionPreference,
+            );
+        </script>
     </body>
 </html>
