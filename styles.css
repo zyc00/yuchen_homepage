@@ -201,6 +201,8 @@ h2 {
   border-bottom: 1px solid var(--rule);
 }
 
+.publication-text-only { grid-template-columns: 1fr; }
+
 .publication-figure {
   display: flex;
   align-items: center;

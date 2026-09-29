@@ -1,0 +1,67 @@
+[
+  {
+    "id": "point-sam",
+    "name": "Point-SAM",
+    "title": "Point-SAM: Promptable 3D Segmentation Model for Point Clouds",
+    "authors": ["Yuchen Zhou*", "Jiayuan Gu*", "Tung Yen Chiang", "Fanbo Xiang", "Hao Su"],
+    "venue": {
+      "name": "ICLR 2025",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/8f363c981c796cd781729e6c0117cadc-Abstract-Conference.html"
+    },
+    "links": {
+      "Paper": "https://arxiv.org/abs/2406.17741",
+      "Code": "https://github.com/zyc00/Point-SAM",
+      "Project": "https://point-sam.github.io/",
+      "Video": "assets/videos/point-sam-transformer.mp4"
+    },
+    "media": {
+      "type": "video",
+      "src": "assets/videos/point-sam-transformer.mp4",
+      "start": 3,
+      "alt": "Point-SAM interactive segmentation of a Transformer model"
+    }
+  },
+  {
+    "id": "partslip",
+    "name": "PartSLIP++",
+    "title": "PartSLIP++: Enhancing Low-Shot 3D Part Segmentation via Multi-View Instance Segmentation and Maximum Likelihood Estimation",
+    "authors": ["Yuchen Zhou*", "Jiayuan Gu*", "Xuanlin Li", "Minghua Liu", "Yunhao Fang", "Hao Su"],
+    "venue": {
+      "name": "Wild3D Workshop at ICCV 2025",
+      "url": "https://3d-in-the-wild.github.io/2025.html"
+    },
+    "links": {
+      "Paper": "https://arxiv.org/abs/2312.03015",
+      "Code": "https://github.com/zyc00/PartSLIP2"
+    },
+    "media": {
+      "type": "image",
+      "src": "assets/images/publications/partslip-results.png",
+      "width": 2700,
+      "height": 1440,
+      "label": "View the full PartSLIP++ segmentation results figure",
+      "alt": "Overview of PartSLIP and PartSLIP++ part segmentation results on chairs, wheelbarrows, buckets, monitors, and other objects; PartSLIP++ results appear in rows two and four."
+    }
+  },
+  {
+    "id": "oric",
+    "name": "ORIC",
+    "title": "ORIC: Benchmarking Object Recognition under Contextual Incongruity in Large Vision-Language Models",
+    "authors": ["Zhaoyang Li*", "Zhan Ling*", "Yuchen Zhou", "Litian Gong", "Erdem Bıyık", "Hao Su"],
+    "venue": {
+      "name": "CVPR 2026",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_ORIC_Benchmarking_Object_Recognition_under_Contextual_Incongruity_in_Large_Vision-Language_CVPR_2026_paper.html"
+    },
+    "links": {
+      "Paper": "https://arxiv.org/abs/2509.15695",
+      "Code": "https://github.com/ZhaoyangLi-1/ORIC"
+    },
+    "media": {
+      "type": "image",
+      "src": "assets/images/publications/oric.png",
+      "width": 2044,
+      "height": 1102,
+      "alt": "ORIC examples of object misidentification and hallucination in incongruous contexts."
+    }
+  }
+]

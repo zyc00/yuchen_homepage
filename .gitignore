@@ -14,3 +14,7 @@ build/
 
 # Local logs
 *.log
+
+# Python build-script cache
+__pycache__/
+*.pyc
