@@ -51,8 +51,10 @@ Keep this source image intact; adjust its display framing with CSS in the bio se
 
 ## Favicon
 
-`assets/penn-shield.ico` is the unmodified simplified shield favicon from
-[Penn's website](https://www.upenn.edu/themes/custom/penn_global/assets/img/simplified-shield.ico).
+`assets/penn-coat-of-arms.svg` is the detailed Penn shield with two open books and
+a dolphin, used as the browser-tab icon. The unmodified vector comes from
+[Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Shield_of_the_University_of_Pennsylvania.svg),
+which credits Penn's logo style guide as its source.
 
 ## Deployment
 
