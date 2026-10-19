@@ -23,8 +23,13 @@ The new papers precede the existing entries, whose relative order is preserved.
 
 ## DexFLEX
 
-- Figure: https://dex-flex.github.io/assets/media/images/pull_figure.png
-- Local figure: `dexflex.png` (5001 × 2633), the complete overview figure.
+- Displayed overview video: https://dex-flex.github.io/assets/media/videos/DexFLEX_main_video.mp4
+- Local video: `../../videos/dexflex-overview.mp4`, the unmodified original.
+  The homepage preview loops silently at 2× speed, displaying the complete 16:9
+  frame. The Video link opens the official player at its original speed.
+  Other publication videos keep their existing playback speed.
+- Previous overview figure (retained): https://dex-flex.github.io/assets/media/images/pull_figure.png
+- Local figure (retained): `dexflex.png` (5001 × 2633), the complete overview figure.
 - Title and author names: https://arxiv.org/abs/2610.14372
 - Project and CoRL 2026 acceptance: https://dex-flex.github.io/
 - Video: https://dex-flex.github.io/#video

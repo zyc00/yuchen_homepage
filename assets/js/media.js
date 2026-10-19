@@ -3,6 +3,13 @@
 const motionPreference = window.matchMedia("(prefers-reduced-motion: reduce)");
 const demoVideos = document.querySelectorAll(".publication-video video");
 
+// Only DexFLEX uses a faster preview; other videos keep their original speed.
+const dexflexVideo = document.querySelector('[aria-labelledby="dexflex-title"] video');
+if (dexflexVideo) {
+  dexflexVideo.defaultPlaybackRate = 2;
+  dexflexVideo.playbackRate = 2;
+}
+
 function respectMotionPreference() {
   for (const video of demoVideos) {
     video.autoplay = !motionPreference.matches;

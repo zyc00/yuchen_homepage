@@ -35,11 +35,9 @@
       "Video": "https://dex-flex.github.io/#video"
     },
     "media": {
-      "type": "image",
-      "src": "assets/images/publications/dexflex.png",
-      "width": 5001,
-      "height": 2633,
-      "alt": "DexFLEX converts fingertip-motion drafts into contact-stable dexterous actions, with examples of real-world teleoperation and policy learning."
+      "type": "video",
+      "src": "assets/videos/dexflex-overview.mp4",
+      "alt": "DexFLEX research overview video, playing at twice the original speed"
     }
   },
   {
