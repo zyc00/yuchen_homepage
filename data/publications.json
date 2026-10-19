@@ -24,7 +24,7 @@
     "id": "dexflex",
     "name": "DexFLEX",
     "title": "DexFLEX: Contact-Aware Foundation Controller for Command-Guided Dexterity",
-    "authors": ["Weikang Wan*", "Zeyu Lai*", "Jianyu Hou*", "Yuchen Zhou", "Jiawei Fu", "Henrik I Christensen", "Hao Su"],
+    "authors": ["Weikang Wan", "Zeyu Lai", "Jianyu Hou", "Yuchen Zhou", "Jiawei Fu", "Henrik I Christensen", "Hao Su"],
     "venue": {
       "name": "CoRL 2026",
       "url": "https://dex-flex.github.io/"
