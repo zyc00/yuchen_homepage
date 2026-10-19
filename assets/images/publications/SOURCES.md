@@ -26,6 +26,8 @@ The new papers precede the existing entries, whose relative order is preserved.
 - Figure: https://dex-flex.github.io/assets/media/images/pull_figure.png
 - Local figure: `dexflex.png` (5001 × 2633), the complete overview figure.
 - Title and author names: https://arxiv.org/abs/2610.14372
+- Equal contribution: Yuchen confirmed on October 19, 2026 that Weikang Wan,
+  Zeyu Lai, and Jianyu Hou are co-first authors; only these three receive `*`.
 - Project and CoRL 2026 acceptance: https://dex-flex.github.io/
 - Video: https://dex-flex.github.io/#video
 - The official project page explicitly identifies the paper as accepted to CoRL
