@@ -5,7 +5,7 @@ displayed at thumbnail size with CSS; clicking one opens the complete source fig
 Original entries retrieved September 28–29, 2026. HT-Policies and DexFLEX were
 added October 19, 2026 after checking Yuchen's Google Scholar profile:
 https://scholar.google.com/citations?user=Sr4zAy0AAAAJ&hl=en&sortby=pubdate
-The new papers precede the existing entries, whose relative order is preserved.
+The publication order is HT-Policies, DexFLEX, ORIC, Point-SAM, and PartSLIP++.
 
 ## HT-Policies
 

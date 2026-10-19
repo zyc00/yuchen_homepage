@@ -41,6 +41,27 @@
     }
   },
   {
+    "id": "oric",
+    "name": "ORIC",
+    "title": "ORIC: Benchmarking Object Recognition under Contextual Incongruity in Large Vision-Language Models",
+    "authors": ["Zhaoyang Li*", "Zhan Ling*", "Yuchen Zhou", "Litian Gong", "Erdem Bıyık", "Hao Su"],
+    "venue": {
+      "name": "CVPR 2026",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_ORIC_Benchmarking_Object_Recognition_under_Contextual_Incongruity_in_Large_Vision-Language_CVPR_2026_paper.html"
+    },
+    "links": {
+      "Paper": "https://arxiv.org/abs/2509.15695",
+      "Code": "https://github.com/ZhaoyangLi-1/ORIC"
+    },
+    "media": {
+      "type": "image",
+      "src": "assets/images/publications/oric.png",
+      "width": 2044,
+      "height": 1102,
+      "alt": "ORIC examples of object misidentification and hallucination in incongruous contexts."
+    }
+  },
+  {
     "id": "point-sam",
     "name": "Point-SAM",
     "title": "Point-SAM: Promptable 3D Segmentation Model for Point Clouds",
@@ -82,27 +103,6 @@
       "height": 1440,
       "label": "View the full PartSLIP++ segmentation results figure",
       "alt": "Overview of PartSLIP and PartSLIP++ part segmentation results on chairs, wheelbarrows, buckets, monitors, and other objects; PartSLIP++ results appear in rows two and four."
-    }
-  },
-  {
-    "id": "oric",
-    "name": "ORIC",
-    "title": "ORIC: Benchmarking Object Recognition under Contextual Incongruity in Large Vision-Language Models",
-    "authors": ["Zhaoyang Li*", "Zhan Ling*", "Yuchen Zhou", "Litian Gong", "Erdem Bıyık", "Hao Su"],
-    "venue": {
-      "name": "CVPR 2026",
-      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_ORIC_Benchmarking_Object_Recognition_under_Contextual_Incongruity_in_Large_Vision-Language_CVPR_2026_paper.html"
-    },
-    "links": {
-      "Paper": "https://arxiv.org/abs/2509.15695",
-      "Code": "https://github.com/ZhaoyangLi-1/ORIC"
-    },
-    "media": {
-      "type": "image",
-      "src": "assets/images/publications/oric.png",
-      "width": 2044,
-      "height": 1102,
-      "alt": "ORIC examples of object misidentification and hallucination in incongruous contexts."
     }
   }
 ]
