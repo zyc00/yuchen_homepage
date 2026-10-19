@@ -2,7 +2,30 @@
 
 The media files are unmodified copies of the authors' original assets. Images are
 displayed at thumbnail size with CSS; clicking one opens the complete source figure.
-Retrieved September 28–29, 2026. The papers are displayed in the order requested by Yuchen.
+Original entries retrieved September 28–29, 2026. HT-Policies and DexFLEX were
+added October 19, 2026 after checking Yuchen's Google Scholar profile:
+https://scholar.google.com/citations?user=Sr4zAy0AAAAJ&hl=en&sortby=pubdate
+The new papers precede the existing entries, whose relative order is preserved.
+
+## HT-Policies
+
+- Figure: https://arxiv.org/html/2610.12231v2/teaser.png
+- Local figure: `ht-policy.png` (1320 × 420), the complete Figure 1.
+- Title and author names: https://arxiv.org/abs/2610.12231
+- Equal contribution and project: https://projects.thelabone.org/regression-policy/
+- Code: https://github.com/the-labone/regression-policy
+- Models: https://huggingface.co/collections/yuchen0187/regressionpolicy
+- Listed as an arXiv 2026 preprint; the first two authors contributed equally.
+
+## DexFLEX
+
+- Figure: https://dex-flex.github.io/assets/media/images/pull_figure.png
+- Local figure: `dexflex.png` (5001 × 2633), the complete overview figure.
+- Title and author names: https://arxiv.org/abs/2610.14372
+- Project and CoRL 2026 acceptance: https://dex-flex.github.io/
+- Video: https://dex-flex.github.io/#video
+- The official project page explicitly identifies the paper as accepted to CoRL
+  2026, while Google Scholar currently lists its arXiv preprint.
 
 ## Point-SAM
 

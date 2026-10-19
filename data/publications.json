@@ -1,5 +1,49 @@
 [
   {
+    "id": "ht-policy",
+    "name": "HT-Policies",
+    "title": "Residual Modeling Closes the Regression and Generative Policy Gap in Robot Learning",
+    "authors": ["Yuchen Zhou*", "Jiacheng You*", "Weikang Wan", "Weijun Dong", "Yang Gao", "Jiayuan Mao"],
+    "venue": {
+      "name": "arXiv 2026"
+    },
+    "links": {
+      "Paper": "https://arxiv.org/abs/2610.12231",
+      "Code": "https://github.com/the-labone/regression-policy",
+      "Project": "https://projects.thelabone.org/regression-policy/",
+      "Models": "https://huggingface.co/collections/yuchen0187/regressionpolicy"
+    },
+    "media": {
+      "type": "image",
+      "src": "assets/images/publications/ht-policy.png",
+      "width": 1320,
+      "height": 420,
+      "alt": "HT-Policies overview: heavy-tailed action residuals explain the regression and generative policy gap, and Student-t regression achieves competitive success rates on three robot-learning benchmarks."
+    }
+  },
+  {
+    "id": "dexflex",
+    "name": "DexFLEX",
+    "title": "DexFLEX: Contact-Aware Foundation Controller for Command-Guided Dexterity",
+    "authors": ["Weikang Wan", "Zeyu Lai", "Jianyu Hou", "Yuchen Zhou", "Jiawei Fu", "Henrik I Christensen", "Hao Su"],
+    "venue": {
+      "name": "CoRL 2026",
+      "url": "https://dex-flex.github.io/"
+    },
+    "links": {
+      "Paper": "https://arxiv.org/abs/2610.14372",
+      "Project": "https://dex-flex.github.io/",
+      "Video": "https://dex-flex.github.io/#video"
+    },
+    "media": {
+      "type": "image",
+      "src": "assets/images/publications/dexflex.png",
+      "width": 5001,
+      "height": 2633,
+      "alt": "DexFLEX converts fingertip-motion drafts into contact-stable dexterous actions, with examples of real-world teleoperation and policy learning."
+    }
+  },
+  {
     "id": "point-sam",
     "name": "Point-SAM",
     "title": "Point-SAM: Promptable 3D Segmentation Model for Point Clouds",
