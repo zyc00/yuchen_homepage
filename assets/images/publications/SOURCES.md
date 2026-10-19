@@ -9,8 +9,12 @@ The new papers precede the existing entries, whose relative order is preserved.
 
 ## HT-Policies
 
-- Figure: https://arxiv.org/html/2610.12231v2/teaser.png
-- Local figure: `ht-policy.png` (1320 × 420), the complete Figure 1.
+- Displayed overview video: https://projects.thelabone.org/regression-policy/assets/videos/teaser.mp4?v=8d70f27a9746
+- Local video: `../../videos/ht-policy-overview.mp4`, the original 16:9 overview.
+  It loops silently in the publication row without cropping; the Video link opens
+  the full recording. Autoplay respects the visitor's reduced-motion preference.
+- Previous overview figure (retained): https://arxiv.org/html/2610.12231v2/teaser.png
+- Local figure (retained): `ht-policy.png` (1320 × 420), the complete Figure 1.
 - Title and author names: https://arxiv.org/abs/2610.12231
 - Equal contribution and project: https://projects.thelabone.org/regression-policy/
 - Code: https://github.com/the-labone/regression-policy

@@ -11,14 +11,13 @@
       "Paper": "https://arxiv.org/abs/2610.12231",
       "Code": "https://github.com/the-labone/regression-policy",
       "Project": "https://projects.thelabone.org/regression-policy/",
-      "Models": "https://huggingface.co/collections/yuchen0187/regressionpolicy"
+      "Models": "https://huggingface.co/collections/yuchen0187/regressionpolicy",
+      "Video": "assets/videos/ht-policy-overview.mp4"
     },
     "media": {
-      "type": "image",
-      "src": "assets/images/publications/ht-policy.png",
-      "width": 1320,
-      "height": 420,
-      "alt": "HT-Policies overview: heavy-tailed action residuals explain the regression and generative policy gap, and Student-t regression achieves competitive success rates on three robot-learning benchmarks."
+      "type": "video",
+      "src": "assets/videos/ht-policy-overview.mp4",
+      "alt": "Residual Modeling and HT-Policies research overview video"
     }
   },
   {

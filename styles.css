@@ -227,6 +227,9 @@ h2 {
 .publication-video { position: relative; padding: 0; aspect-ratio: 3 / 2; min-height: 0; }
 .publication-video video { height: 100%; object-fit: cover; background: #fff; }
 
+/* Keep the complete widescreen overview, including its diagrams and labels. */
+.publication[aria-labelledby="ht-policy-title"] .publication-video { aspect-ratio: 16 / 9; }
+
 .publication h3 {
   margin: 0 0 0.45rem;
   font-family: var(--serif);
