@@ -6,8 +6,8 @@ const demoVideos = document.querySelectorAll(".publication-video video");
 // Only DexFLEX uses a faster preview; other videos keep their original speed.
 const dexflexVideo = document.querySelector('[aria-labelledby="dexflex-title"] video');
 if (dexflexVideo) {
-  dexflexVideo.defaultPlaybackRate = 2;
-  dexflexVideo.playbackRate = 2;
+  dexflexVideo.defaultPlaybackRate = 4;
+  dexflexVideo.playbackRate = 4;
 }
 
 function respectMotionPreference() {
